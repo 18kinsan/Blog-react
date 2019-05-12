@@ -57,7 +57,7 @@ const tabList= [{
   }];
   
   const contentListNoTitle = {
-    Teamwork: <Progress percent={100} status="active" />,
+    Teamwork: <Progress percent={100} />,
     Laravel: <Progress percent={55} status="active" />,
     HTML: <Progress percent={80} status="active" />,
     CSS: <Progress percent={65} status="active" />,
@@ -68,7 +68,7 @@ const tabList= [{
 
 class Portofolio extends React.Component{
     state = {
-        key: 'pr',
+        key: 'ms',
         noTitleKey: 'Teamwork'
       }
     
@@ -81,7 +81,7 @@ class Portofolio extends React.Component{
             <div className="porto" style={{ padding: '30px' }}>
                 <Title level={4}><Text type="warning">SKILLS</Text></Title>
                 <Card
-                style={{ width: '100%' }}
+                style={{ width: '100%', textAlign:'center' }}
                 tabList={tabListNoTitle}
                 activeTabKey={this.state.noTitleKey}
                 onTabChange={(key) => { this.onTabChange(key, 'noTitleKey'); }}
@@ -91,7 +91,7 @@ class Portofolio extends React.Component{
                 <br/>
                 <Title level={4}><Text  type="warning">SOFTWARE</Text></Title>
                 <Card
-                style={{ width: '100%' }}
+                style={{ width: '100%' , textAlign:'center'}}
                 tabList={tabList}
                 activeTabKey={this.state.key}
                 onTabChange={(key) => { this.onTabChange(key, 'key'); }}
