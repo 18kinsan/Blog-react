@@ -10,7 +10,7 @@ const { Title, Text } = Typography;
 class Contact extends React.Component{
     render(){
         return(
-            <div className="kontak">
+            <div className="kontak" margin="30px">
                 <Row>
                 <div style={{textAlign:'center', margin:'30px'}}>
                 <Col span={8}><Icon type="linkedin" style={{ fontSize: '100px', color: '#08c' }}></Icon>

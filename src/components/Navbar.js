@@ -7,6 +7,7 @@ import Home from './Home.js';
 import Profile from './Profile.js';
 import Portofolio from './Portofolio.js';
 import Contact from './Contact.js';
+import PersonList from './PersonList.js';
 
 const { Header, Content, Footer } = Layout;
 
@@ -30,7 +31,7 @@ class Navbar extends React.Component{
                         <Menu.Item key="2">Profile <Link to='/Profile'></Link></Menu.Item>
                         <Menu.Item key="3">Portofolio <Link to='/Portofolio'></Link></Menu.Item>
                         <Menu.Item key="4">Contact <Link to='/Contact'></Link></Menu.Item>                       
-                    
+                        <Menu.Item key="5">PersonList <Link to='/PersonList'></Link></Menu.Item>  
                 </Menu>
                 </Header>
 
@@ -43,6 +44,7 @@ class Navbar extends React.Component{
                     <Route path='/Profile' component={Profile}></Route>
                     <Route path='/Portofolio' component={Portofolio}></Route>
                     <Route path='/Contact' component={Contact}></Route>
+                    <Route path='/PersonList' component={PersonList}></Route>
                 </div>
                 </Content>
 

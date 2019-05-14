@@ -7,6 +7,7 @@ import Home from './components/Home.js';
 import Profile from './components/Profile.js';
 import Portofolio from './components/Portofolio.js';
 import Contact from './components/Contact.js';
+import PersonList from './components/PersonList.js';
 
 class App extends Component {
   render(){
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path="/Profile" component={Profile}/>
         <Route path="/Portofolio" component={Portofolio}/>
         <Route path="/Contact" component={Contact}/>
+        <Route path="/PersonList" component={PersonList}/>
       </Switch>
     </BrowserRouter>
     );

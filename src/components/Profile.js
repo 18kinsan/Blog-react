@@ -12,7 +12,7 @@ const { Meta } = Card;
 class Profile extends React.Component{
     render(){
         return(
-        <div className="foto" style={{ padding: '20px' }}>
+        <div className="foto" style={{ padding: '30px' }}>
         <Row gutter={16}>
             <Col span={8}>
                 <Card
