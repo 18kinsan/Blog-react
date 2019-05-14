@@ -14,8 +14,8 @@ const tabList= [{
     key: 'il',
     tab: 'Illustrator',
   }, {
-    key: 'co',
-    tab: 'Corel Draw',
+    key: 'af',
+    tab: 'After Effect',
   }, {
     key: 'ms',
     tab: 'Ms Office',
@@ -30,7 +30,7 @@ const tabList= [{
   const contentList = {
     pr: <Progress percent={75} type="circle"  />,
     il: <Progress percent={40} type="circle" />,
-    co: <Progress percent={50} type="circle" />,
+    af: <Progress percent={25} type="circle" />,
     ms: <Progress percent={100} type="circle" />,
     an: <Progress percent={35} type="circle" />,
     vi: <Progress percent={70} type="circle" />
